@@ -4,47 +4,128 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>万华镜</title>
-    <style>  
+    <style>
       body {
         margin: 0;
+        height: 100vh;
+      }
+      * {
+        border: 0px solid black;
+      }
+      .ziti {
+        font-family: "楷体";
+        font-size: 45px;
+      }
+      .gezi {
+        height: 300px;
+        width: 400px;
+        position: relative;
+        transition: 0.2s;
+      }
+      .gezi:hover {
+        transform: translateY(-20px);
+      }
+      .gezi1 {
+        height: 300px;
+        width: 400px;
+      }
+
+      .bianju {
+        margin: 20px;
+        margin-top: 300px;
+        margin-bottom: 300px;
+      }
+      .juzhong {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .yinying {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      @media (max-width: 800px) {
+        .shouji {
+          display: none;
+        }
+        .shuxiang {
+          flex-direction: column;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+        .JBjuzhong {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
       }
     </style>
+    <link
+      rel="stylesheet"
+      type="imge/png"
+      href="./main.css"
+    />
   </head>
-  <body style="background-color:rgba(145, 145, 162, 0.403);">
+  <body>
     <div style="
-      text-align: center;
-      background-color: aqua;
+      background-color:blueviolet;
+      vertical-align: middle;
       padding: 40px;
     ">
-        <h1><font size="15">先有因,后有果</font></h1>
+      <img
+        src="https://s1.328888.xyz/2022/08/01/Fegfh.jpg"
+        alt="LOGO"
+        width="120px"
+        height="120px"
+        style="vertical-align: -60%"
+      />
+      <a class="ziti">人活着就是为了樱岛麻衣!!!</a>
     </div>
-    <div style="
-      background-color:white;
-      text-align: center;
-      padding: 40px;
-    ">
-      <img src="https://s1.328888.xyz/2022/07/31/FMRIg.webp" alt="爱蜜莉雅" width="900px" height="700px">
+  <div
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 800px;
+        background: url(https://w.wallhaven.cc/full/rd/wallhaven-rd8967.jpg);
+      "
+      class="shuxiang"
+  >
+    <div
+      class="gezi bianju juzhong yinying shuxiang"
+      style="background: url(https://w.wallhaven.cc/full/k7/wallhaven-k7o2z7.jpg)"
+    >
+      <a
+        href="https://leetcode.cn/"
+        target="_blank"
+        class="gezi1"
+      >
+      </a>
     </div>
-    <div style="
-      max-width: 700px;
-      margin: 30px auto;
-      padding: 15px;
-      line-height: 1.7;
-      color: blue;  
-    ">
-      <p>许多年之后，面对行刑队，奥雷良诺·布恩地亚上校将会回想起，他父亲带他去见识冰块的那个遥远的下午。</p>
-      <p>18禁:<a href="https://leetcode.cn/" > 初生牛犊不怕虎</a></p>
-      <p>20禁:<a href="https://www.luogu.com.cn/" > 狮子搏兔亦用全力</a></p>
-      <p>25禁:<a href="https://codeforces.com/" > 抽刀断水水更流</a></p>
-      <p>补给:<a href="https://oi-wiki.org/" > 人是铁，饭是钢，一顿不吃饿得慌</a></p>  
+    <div
+      class="gezi bianju juzhong yinying shuxiang"
+      style="background: url(https://w.wallhaven.cc/full/rd/wallhaven-rd81d1.png)"
+    >
+      <a href="https://www.luogu.com.cn/" target="_blank" class="gezi1"> </a>
     </div>
-    <div style="
-      background-color: #f1f1f1;
-      text-align: center;
-      padding: 40px;
-      font-size: 12px;
-    ">
-      <a href="https://www.bilibili.com/">自学成才</a>
+    <div
+      class="gezi bianju juzhong yinying shuxiang"
+      style="background: url(https://w.wallhaven.cc/full/k7/wallhaven-k7orj7.png)"
+    >
+      <a href="https://codeforces.com/" target="_blank" class="gezi1"> </a>
     </div>
-  </body>
+    <div
+      class="gezi bianju juzhong yinying shuxiang"
+      style="background: url(https://w.wallhaven.cc/full/8o/wallhaven-8oq5jk.png)"
+    >
+      <a href="https://oi-wiki.org/" target="_blank" class="gezi1"> </a>
+    </div>
+  </div>
+  <div style="background-color: #f1f1f1; text-align: center; padding: 40px">
+    <p>可以白嫖的网站</p>
+    <a href="https://www.bilibili.com/" target="_blank">戳这里!!!</a>
+  </div>
+</body>
 </html>
